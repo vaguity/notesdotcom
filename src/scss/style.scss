@@ -1,0 +1,42 @@
+// ------------------------------------
+// Core imports
+// ------------------------------------
+
+@import 'lib/susy';
+@import 'lib/breakpoint';
+@import 'partials/base';
+
+// ------------------------------------
+
+h1 {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 1em 0;
+	font-weight: normal;
+}
+
+header {
+	color: $white;
+	background: url('http://placekitten.com/1200/800');
+	background-repeat: no-repeat;
+	background-size: cover;
+	h2 {
+		font-size: 60px;
+		margin: 40px 0;
+		font-weight: 100;
+	}
+	.intro {
+		line-height: 1.5em;
+		font-size: 24px;
+	}
+}
+
+button {
+	background: $green;
+	font-size: 24px;
+	color: $white;
+	border: none;
+	border-radius: 10px;
+	padding: .25em 1em;
+	margin: 2em 0;
+}
