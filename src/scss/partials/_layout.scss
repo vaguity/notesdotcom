@@ -8,17 +8,31 @@ header {
 		@include suffix (4 of 12);
 	}
 	.intro {
-		@include span(5 of 12 last);
-		@include suffix(7 of 12);
+		@include span(6 of 12 last);
+		@include suffix(6 of 12);
 	}
 }
 
 .content {
+	margin-bottom: 40px;
 	@include container(80%);
 	.left {
 		@include span(6 of 12);
 	}
 	.right {
+		@include span(6 of 12 last);
+	}
+}
+
+footer {
+	@include container(full);
+	.container {
+		@include container(80%);
+	}
+	.logo {
+		@include span(6 of 12);
+	}
+	nav {
 		@include span(6 of 12 last);
 	}
 }

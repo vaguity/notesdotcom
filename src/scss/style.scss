@@ -8,35 +8,85 @@
 
 // ------------------------------------
 
+img {
+	max-width: 100%;
+}
+
 h1 {
 	text-transform: uppercase;
+	font-size: 60px;
+	line-height: 1em;
 	margin: 0;
-	padding: 1em 0;
+	padding: .5em 0;
 	font-weight: normal;
 }
 
 header {
 	color: $white;
-	background: url('http://placekitten.com/1200/800');
+	background: url('../img/notes-hero.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	h2 {
 		font-size: 60px;
-		margin: 40px 0;
+		margin: 20px 0;
 		font-weight: 100;
+		line-height: 1.2em;
 	}
 	.intro {
 		line-height: 1.5em;
 		font-size: 24px;
+		font-weight: 100;
 	}
 }
 
 button {
 	background: $green;
 	font-size: 24px;
+	font-weight: 100;
+	letter-spacing: 1px;
 	color: $white;
 	border: none;
 	border-radius: 10px;
-	padding: .25em 1em;
+	padding: .5em 2em;
 	margin: 2em 0;
+}
+
+.content h2 {
+	font-weight: 100;
+	font-size: 36px;
+}
+
+.product-shot {
+	background: $offwhite;
+	text-align: center;
+	img {
+		width: 480px;
+		height: auto;
+	}
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	li {
+		display: inline-block;
+		padding-top: 21px;
+		line-height: 20px;
+		vertical-align: bottom;
+		float: right;
+	}
+	a {
+		color: $white;
+		text-decoration: none;
+		font-weight: 100;
+		text-align: right;
+	}
+}
+
+footer {
+	background: $green;
+	padding: 40px 0;
+	.container {
+	}
 }
