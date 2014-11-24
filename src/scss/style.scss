@@ -49,6 +49,9 @@ button {
 	border-radius: 10px;
 	padding: .5em 2em;
 	margin: 2em 0;
+	&:focus {
+		outline: none;
+	}
 }
 
 .content h2 {
@@ -81,6 +84,9 @@ nav ul {
 		text-decoration: none;
 		font-weight: 100;
 		text-align: right;
+		&:hover {
+			border-bottom: 1px solid $white;
+		}
 	}
 }
 
